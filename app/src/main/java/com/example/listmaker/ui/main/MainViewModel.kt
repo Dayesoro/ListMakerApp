@@ -2,7 +2,7 @@ package com.example.listmaker.ui.main
 
 import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
-import com.TaskList
+import com.example.listmaker.models.TaskList
 
 class MainViewModel(private val sharedPreferences: SharedPreferences) : ViewModel() {
 
